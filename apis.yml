@@ -1,7 +1,25 @@
 aid: remedy-corporation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/remedy-corporation.png
 name: Remedy Corporation
-description: Remedy Corporation is a company surfaced as a portfolio company of accel and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Remedy Corporation was an IT service management (ITSM) software company founded in 1991 by
+  Lawrence Garlick, David Mahler, and Doug Mueller, and backed by Accel with a Series A investment.
+  Its flagship Action Request System (AR System) became a leading help-desk and IT service
+  management platform. The company went public on NASDAQ under the ticker RMDY, was acquired by
+  Peregrine Systems in 2001, and its ITSM assets were subsequently acquired by BMC Software in 2002,
+  where the Remedy ITSM product line continued for many years. Remedy Corporation no longer exists
+  as an independent company and publishes no active developer portal, documentation, or public API.
 url: https://raw.githubusercontent.com/api-evangelist/remedy-corporation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,26 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Peregrine Systems (2001), ITSM assets acquired by BMC Software (2002); defunct as an independent company.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- IT Service Management
+- Enterprise Software
+- Help Desk
+- Acquired
+- Legacy
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
